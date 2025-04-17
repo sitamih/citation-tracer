@@ -42,7 +42,7 @@ def get_all_descendants_list(root):
         #print(next_nodes_count)
         all_nodes_count = all_nodes_count+next_nodes_count
         
-    return visited[1:],all_nodes_count  # Exclude the root itself from the results
+    return visited[1:],all_nodes_count[1:]  # Exclude the root itself from the results
 
 
 # Set input paper
